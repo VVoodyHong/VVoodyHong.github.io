@@ -91,7 +91,7 @@ export const achievements = {
 			img: "",
 			alt: "",
 			title: "부산대학교 블록체인 코딩 개발자 양성과정 1기",
-			desc: "2020. 06 ~ 202. 12"
+			desc: "2020. 06 ~ 2020. 12"
 		},
 		{
 			img: "",
