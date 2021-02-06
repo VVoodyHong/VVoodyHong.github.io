@@ -11,8 +11,6 @@ function ProjectCard({ project }: Props) {
             </div>
             <div className="card-desc">
                 <p>{project.descPeriod}</p>
-            </div>
-            <div className="card-desc">
                 <p>{project.descPart}</p>
             </div>
         </a>

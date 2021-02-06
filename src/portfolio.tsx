@@ -25,7 +25,7 @@ export const socialMediaLinks = {
 };
 
 export const skills = {
-	title: 'Skills ⚡',
+	title: emoji('Skills ⚡'),
 	subTitle: "Languages ​​and tools available",
 	describeSkills: [
 		// moji("✔ describe first"),
@@ -53,7 +53,7 @@ export const skills = {
 };
 
 export const experience = {
-	title: "Work Experience 👨‍💻",
+	title: emoji("Work Experience 👨‍💻"),
 	lists: [
 		{
 			date: "2020.12.21 ~",
@@ -75,9 +75,9 @@ export const projects = {
 	lists: [
 		{
 			title: "Synergy",
-			descPeriod: " 2021.12.21 ~ ",
+			descPeriod: "2020. 12. 21 ~ ",
 			descPart: "admin and client app development",
-			url: "#"
+			url: "http://eaglessystem.com/intro"
 		},
 	],
 	view: true
