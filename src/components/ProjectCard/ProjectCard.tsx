@@ -10,7 +10,10 @@ function ProjectCard({ project }: Props) {
                 <p>{project.title}</p>
             </div>
             <div className="card-desc">
-                <p>{project.desc}</p>
+                <p>{project.descPeriod}</p>
+            </div>
+            <div className="card-desc">
+                <p>{project.descPart}</p>
             </div>
         </a>
         </Fade>
@@ -19,7 +22,8 @@ function ProjectCard({ project }: Props) {
 interface Props {
     project: {
         title: string,
-        desc: string,
+        descPeriod: string,
+        descPart: string,
         url: string
     }
 }

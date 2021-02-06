@@ -1,11 +1,11 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'Username',
-	title: 'Hello I\'m Username',
-	subTitle: emoji("subtitle ❤"),
-	role: "Your role",
-	resumeLink: "Your resume link... google drive or something else",
+	username: 'Woody',
+	title: 'Jeongwook Hong\'s Profile',
+	subTitle: '',
+	role: "Blockchain Developer",
+	resumeLink: "https://github.com/VVoodyHong/Profile",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
 	view: true
@@ -14,110 +14,90 @@ export const greeting = {
 export const socialMediaLinks = {
 	// IMPORTANT
 	// if you don't have, change value to blank or false!! DO NOT DELETE!
-	github: 'Your github link',
-	linkedin: 'Your linkedin link',
-	email: 'your email link',
-	facebook: 'Your facebook link',
-	twitter: "Your twitter link",
-	instagram: "Your instagram link",
-	medium: 'Your medium link',
-	stackoverflow: 'Your stackoverflow link'
+	github: 'https://github.com/VVoodyHong',
+	email: 'hju4287@naver.com',
+	facebook: 'https://www.facebook.com/profile.php?id=100002048019948',
+	instagram: "https://www.instagram.com/w8kjeong/",
+	// linkedin: 'Your linkedin link',
+	// twitter: "Your twitter link",
+	// medium: 'Your medium link',
+	// stackoverflow: 'Your stackoverflow link'
 };
 
 export const skills = {
-	title: emoji("I Can Do ⚡"),
-	subTitle: "subtitle for skill",
+	title: 'Skills ⚡',
+	subTitle: "Languages ​​and tools available",
 	describeSkills: [
-		emoji("✔ describe first"),
-		emoji("✔ describe second"),
-		emoji("✔ describe third"),
-		emoji("✔ describe forth"),
-		emoji("✔ describe fifth"),
+		// moji("✔ describe first"),
+		// emoji("✔ describe second"),
+		// emoji("✔ describe third"),
+		// emoji("✔ describe forth"),
+		// emoji("✔ describe fifth"),e
 	],
 	// IMPORTANT
 	// You need to find className for font-awesome icon
 	// Go to https://fontawesome.com/ and search icon
 	lists: [
-		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 80},
-		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
+		{fontAwesome: "fas fa-copyright", text: "C/C++", proficiency: 80},
+		{fontAwesome: "fab fa-java", text: "Java", proficiency: 70},
 		{fontAwesome: "fab fa-js", text: "JS", proficiency: 70},
-		{fontAwesome: "fab fa-sass", text: "Sass", proficiency: 30},
-		{fontAwesome: "fab fa-react", text: "React", proficiency: 60},
-		{fontAwesome: "fab fa-aws", text: "AWS", proficiency: 20},
+		{fontAwesome: "fab fa-google", text: "Go", proficiency: 40},
+		{fontAwesome: "fab fa-python", text: "Python", proficiency: 30},
+		{fontAwesome: "fab fa-react", text: "React-Native", proficiency: 70},
+		{fontAwesome: "fab fa-react", text: "React", proficiency: 70},
+		{fontAwesome: "fab fa-node", text: "node.js", proficiency: 60},
+		{fontAwesome: "fab fa-docker", text: "Docker", proficiency: 50},
+		{fontAwesome: "fas fa-database", text: "SQL", proficiency: 50},
 	],
 	view: true
 };
 
 export const experience = {
-	title: "Work Experience",
+	title: "Work Experience 👨‍💻",
 	lists: [
 		{
-			date: "2018.03~",
-			company: "Google",
-			role: "Front-End Developer",
+			date: "2020.12.21 ~",
+			company: "UPCHAIN",
+			role: "Blockchain Developer",
 		},
-		{
-			date: "test",
-			company: "test",
-			role: "test",
-		},
-		{
-			date: "test",
-			company: "test",
-			role: "test",
-		},
-		{
-			date: "test",
-			company: "test",
-			role: "test",
-		},
-		{
-			date: "test",
-			company: "test",
-			role: "test",
-		}
 	],
 	view: true
 }
 
 export const openSourceProjects = {
 	title: emoji("Open Source Projects 💻"),
-	view: true
+	view: false
 }
 
 export const projects = {
 	title: emoji("Projects 💻"),
-	subTitle: "subtitle for projects",
+	subTitle: "",
 	lists: [
 		{
-			title: "Project1",
-			desc: "very very very very very very very very very very very very very very long very long description for clamp testing",
+			title: "Synergy",
+			descPeriod: " 2021.12.21 ~ ",
+			descPart: "admin and client app development",
 			url: "#"
 		},
-		{
-			title: "Project2",
-			desc: "description",
-			url: "#"
-		}
 	],
 	view: true
 }
 
 export const achievements = {
 	title: emoji("Achievements And Certifications 🏆"),
-	subTitle: "subtitle for achievement",
+	subTitle: "",
 	lists: [
 		{
-			img: require("./assets/sad-icon.png"),
-			alt: "I'm sad..",
-			title: "There is no Achievement...😥",
-			desc: "I'll try harder!"
+			img: "",
+			alt: "",
+			title: "부산대학교 블록체인 코딩 개발자 양성과정 1기",
+			desc: "2020. 06 ~ 202. 12"
 		},
 		{
-			img: require("./assets/sad-icon.png"),
-			alt: "I'm sad..",
-			title: "There is no Certification...😥",
-			desc: "I'll try harder!"
+			img: "",
+			alt: "",
+			title: "고려대학교 팬데믹 블록체인 아이디어톤 - 장려상",
+			desc: " 수상날짜: 2020. 11"
 		},
 	],
 	view: true
@@ -138,12 +118,13 @@ export const blogs = {
 			url: "#"
 		},
 	],
-	view: true
+	view: false
 }
 
+//hard coding
 export const contactInfo = {
-	title: "Contact To Me! 📞",
-	subTitle: "subtitle for contact",
-	introduce: emoji("your introduce❤"),
+	title: "Contact Me 🤝",
+	subTitle: "",
+	introduce: "",
 	view: true
 }
