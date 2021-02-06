@@ -21,7 +21,7 @@ function Header() {
 			<div className="inner clearfix">
 
 				<div className="header-logo">
-					<a href="#">{greeting.username}</a>
+					<a href="#" style = {{fontSize: 25, fontWeight: 'bold'}}>{greeting.username}</a>
 				</div>
 				
 				<div className="icon">
