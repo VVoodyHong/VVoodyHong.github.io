@@ -5,7 +5,7 @@ import { greeting, skills, experience, openSourceProjects, projects, achievement
 function Header() {
 	
 	const onClickMenu = function(): void {
-		if (window.innerWidth < 768) {
+		if (window.innerWidth <= 768) {
 			let navMenu = document.getElementById("toggle-nav");
 			if (!navMenu) throw new Error("HTML Error!");
 			if (navMenu.className === "nav-menu") {
